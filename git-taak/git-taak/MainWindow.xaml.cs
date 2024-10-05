@@ -53,6 +53,22 @@ namespace git_taak
         {
             mainWindow.Background = Brushes.LightGray;
         }
+         private void yellowClick(object sender, EventArgs e)
+        {
+            colorCodeTextBox.Text = "#FFFF00";
+        }
+        private void greenClick(object sender, EventArgs e)
+        {
+            colorCodeTextBox.Text = "#008000";
+        }
+        private void blueClick(object sender, EventArgs e)
+        {
+            colorCodeTextBox.Text = "#0000FF";
+        }
+        private void redClick(object sender, EventArgs e)
+        {
+            colorCodeTextBox.Text = "#FF0000";
+        }
 
 
 
