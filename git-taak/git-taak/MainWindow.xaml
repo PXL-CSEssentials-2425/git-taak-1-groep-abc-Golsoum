@@ -9,11 +9,9 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="69,44,0,0" TextWrapping="Wrap" Text="Kleurenpsycologie" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="676,19,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="87,123,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="253,109,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="82,206,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="251,206,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png"/>
-        <Image Margin="859,188,-59,246" Source="/PXL.png" Stretch="Fill"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="80,109,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="253,109,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseLeave="leaveYellow"  MouseEnter="yellowEvent" />
+        <Image HorizontalAlignment="Left" Height="100" Margin="82,206,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseLeave="leaveGreen" MouseEnter="greenEvent"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="251,206,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseLeave="leaveBlue" MouseEnter="blueEvent"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="80,109,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png"  MouseLeave="leaveRed" MouseEnter="redEvent"/>
     </Grid>
 </Window>
