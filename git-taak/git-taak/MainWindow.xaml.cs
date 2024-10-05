@@ -56,18 +56,22 @@ namespace git_taak
          private void yellowClick(object sender, EventArgs e)
         {
             colorCodeTextBox.Text = "#FFFF00";
+            informationTextBox.Text = "Geel is de kleur van levenslust";
         }
         private void greenClick(object sender, EventArgs e)
         {
             colorCodeTextBox.Text = "#008000";
+            informationTextBox.Text = " Groen is de kleur van genezing";
         }
         private void blueClick(object sender, EventArgs e)
         {
             colorCodeTextBox.Text = "#0000FF";
+            informationTextBox.Text = " Blauw is de kleur van intelligentie";
         }
         private void redClick(object sender, EventArgs e)
         {
             colorCodeTextBox.Text = "#FF0000";
+            informationTextBox.Text = "Rood is de kleur van warmte";
         }
 
 
